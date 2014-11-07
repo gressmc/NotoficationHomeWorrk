@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8451494B1A0CDF85007155CE /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8451494A1A0CDF85007155CE /* MyAppDelegate.m */; };
 		84935C241A0BDCA800534E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84935C231A0BDCA800534E4C /* main.m */; };
 		84935C271A0BDCA800534E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84935C261A0BDCA800534E4C /* AppDelegate.m */; };
 		84935C2A1A0BDCA800534E4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84935C291A0BDCA800534E4C /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		84935C2F1A0BDCA800534E4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84935C2E1A0BDCA800534E4C /* Images.xcassets */; };
 		84935C321A0BDCA800534E4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84935C301A0BDCA800534E4C /* LaunchScreen.xib */; };
 		84935C3E1A0BDCA800534E4C /* NotoficationHomeWorrkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84935C3D1A0BDCA800534E4C /* NotoficationHomeWorrkTests.m */; };
+		84935C4B1A0BDCD600534E4C /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84935C481A0BDCD600534E4C /* Doctor.m */; };
+		84935C4C1A0BDCD600534E4C /* Government.m in Sources */ = {isa = PBXBuildFile; fileRef = 84935C4A1A0BDCD600534E4C /* Government.m */; };
+		84935C4F1A0BDD5000534E4C /* Pensioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 84935C4E1A0BDD5000534E4C /* Pensioner.m */; };
+		84935C521A0BDD9200534E4C /* Entrepreneur.m in Sources */ = {isa = PBXBuildFile; fileRef = 84935C511A0BDD9200534E4C /* Entrepreneur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		845149491A0CDF85007155CE /* MyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
+		8451494A1A0CDF85007155CE /* MyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
 		84935C1E1A0BDCA800534E4C /* NotoficationHomeWorrk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotoficationHomeWorrk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84935C221A0BDCA800534E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84935C231A0BDCA800534E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,14 @@
 		84935C371A0BDCA800534E4C /* NotoficationHomeWorrkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotoficationHomeWorrkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84935C3C1A0BDCA800534E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84935C3D1A0BDCA800534E4C /* NotoficationHomeWorrkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotoficationHomeWorrkTests.m; sourceTree = "<group>"; };
+		84935C471A0BDCD600534E4C /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		84935C481A0BDCD600534E4C /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		84935C491A0BDCD600534E4C /* Government.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Government.h; sourceTree = "<group>"; };
+		84935C4A1A0BDCD600534E4C /* Government.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Government.m; sourceTree = "<group>"; };
+		84935C4D1A0BDD5000534E4C /* Pensioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pensioner.h; sourceTree = "<group>"; };
+		84935C4E1A0BDD5000534E4C /* Pensioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pensioner.m; sourceTree = "<group>"; };
+		84935C501A0BDD9200534E4C /* Entrepreneur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entrepreneur.h; sourceTree = "<group>"; };
+		84935C511A0BDD9200534E4C /* Entrepreneur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entrepreneur.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,16 @@
 		84935C201A0BDCA800534E4C /* NotoficationHomeWorrk */ = {
 			isa = PBXGroup;
 			children = (
+				845149491A0CDF85007155CE /* MyAppDelegate.h */,
+				8451494A1A0CDF85007155CE /* MyAppDelegate.m */,
+				84935C4D1A0BDD5000534E4C /* Pensioner.h */,
+				84935C4E1A0BDD5000534E4C /* Pensioner.m */,
+				84935C501A0BDD9200534E4C /* Entrepreneur.h */,
+				84935C511A0BDD9200534E4C /* Entrepreneur.m */,
+				84935C471A0BDCD600534E4C /* Doctor.h */,
+				84935C481A0BDCD600534E4C /* Doctor.m */,
+				84935C491A0BDCD600534E4C /* Government.h */,
+				84935C4A1A0BDCD600534E4C /* Government.m */,
 				84935C251A0BDCA800534E4C /* AppDelegate.h */,
 				84935C261A0BDCA800534E4C /* AppDelegate.m */,
 				84935C281A0BDCA800534E4C /* ViewController.h */,
@@ -219,8 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84935C4C1A0BDCD600534E4C /* Government.m in Sources */,
+				84935C4F1A0BDD5000534E4C /* Pensioner.m in Sources */,
 				84935C2A1A0BDCA800534E4C /* ViewController.m in Sources */,
 				84935C271A0BDCA800534E4C /* AppDelegate.m in Sources */,
+				8451494B1A0CDF85007155CE /* MyAppDelegate.m in Sources */,
+				84935C521A0BDD9200534E4C /* Entrepreneur.m in Sources */,
+				84935C4B1A0BDCD600534E4C /* Doctor.m in Sources */,
 				84935C241A0BDCA800534E4C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +444,7 @@
 				84935C431A0BDCA800534E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84935C441A0BDCA800534E4C /* Build configuration list for PBXNativeTarget "NotoficationHomeWorrkTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +453,7 @@
 				84935C461A0BDCA800534E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
