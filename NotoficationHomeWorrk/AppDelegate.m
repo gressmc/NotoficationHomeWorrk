@@ -33,38 +33,36 @@
                                                  name:GovernmentTaxLevelDidChangeNotification
                                                object:nil];
     */
-    self.government = [Government new];
-    self.entrepreneur = [Entrepreneur  new];
-    self.pensioner = [Pensioner new];
-    self.doc =[Doctor new];
-    self.myApp = [MyAppDelegate new];
+    self.government     = [Government new];
+    self.entrepreneur   = [Entrepreneur  new];
+    self.pensioner      = [Pensioner new];
+    self.doc            = [Doctor new];
+    self.myApp          = [MyAppDelegate new];
     
-    self.doc.salary = 900.f;
-    self.pensioner.pension = 300;
-    self.entrepreneur.salary = self.government.salary*5;
-    self.entrepreneur.taxLevel = self.government.taxLevel;
+    self.doc.salary             = 900.f;
+    self.pensioner.pension      = 300;
+    self.entrepreneur.salary    = self.government.salary * 5;
+    self.entrepreneur.taxLevel  = self.government.taxLevel;
     
-    
-    
-    self.government.taxLevel = 13.4f;
-    self.government.salary = 1100;
+    self.government.taxLevel    = 13.4f;
+    self.government.salary      = 1100;
     NSLog(@"Next Day-----------");
-    self.government.pension = 550;
-    self.government.taxLevel = 13.7f;
+    self.government.pension     = 550;
+    self.government.taxLevel    = 13.7f;
     NSLog(@"Next Day-----------");
-    self.government.averagePrice  = 17;
-    self.government.pension = 600;
+    self.government.averagePrice    = 17;
+    self.government.pension         = 600;
     NSLog(@"Next Day-----------");
-    self.government.salary = 1500;
-    self.government.averagePrice  = 20;
-    self.government.pension = 550;
+    self.government.salary          = 1500;
+    self.government.averagePrice    = 20;
+    self.government.pension         = 550;
     NSLog(@"Next Day-----------");
-    self.government.taxLevel = 13.f;
-    self.government.averagePrice  = 25;
-    self.government.pension = 850;
+    self.government.taxLevel        = 13.f;
+    self.government.averagePrice    = 25;
+    self.government.pension         = 850;
     NSLog(@"Next Day-----------");
-    self.government.taxLevel = 20.f;
-    self.government.salary = 1401;
+    self.government.taxLevel        = 20.f;
+    self.government.salary          = 1401;
 
     return YES;
 }
